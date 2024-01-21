@@ -1,0 +1,56 @@
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.header{
+    background-image: url(../afbeeldingen/fit.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    max-width: 100%;    
+}
+.header,.footer, .col-2, .col-9, .col-11{
+    font-family: 'Gabarito', sans-serif;
+    font-size: large;
+}
+h1, h2{
+    color: whitesmoke;
+    position: relative;
+    left: 40%;
+    padding-top: 20px;
+    }
+ul{
+    list-style-image: url(../afbeeldingen/andreas-print.png);
+    font-size: 15px;
+    margin-left: 20px;
+    padding: 30px 5px 40px 15px;
+}
+    #wapen{
+    position: absolute;
+    top: 25px;
+    left: 10px;
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%; background-color: teal; color: white; height: 400px;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width:50%}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%; background-color: skyblue; color: black; height: 185px;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%; background-color: red;color: white; height: 25px;}
+.col-12{width: 100%;}
+.col-2, .col-9{
+    display: inline-block;
+}
+@media only screen and (min-width: 768px) {
+    .col-11{
+        background-color: blue;
+    }
+}
+img{
+    float: right;
+}
